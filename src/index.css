@@ -1,0 +1,42 @@
+body {
+  font-family: Arial;
+  background: #f4f6f8;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+}
+
+.form input, .form select {
+  margin: 5px;
+  padding: 8px;
+}
+
+button {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.balance {
+  background: white;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  margin: 5px 0;
+  padding: 8px;
+}
+
+.income {
+  color: green;
+}
+
+.expense {
+  color: red;
+}
